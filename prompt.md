@@ -4,8 +4,8 @@ markdown
 
 ## Your Task
 
-1. Read `scripts/ralph/prd.json`
-2. Read `scripts/ralph/progress.txt`
+1. Read `prd.json`
+2. Read `progress.txt`
    (check Codebase Patterns first)
 3. Check you're on the correct branch
 4. Pick highest priority story 
