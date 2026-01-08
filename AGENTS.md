@@ -65,13 +65,14 @@ Objectif : faire évoluer l’app **rapidement** sans dette technique, sans cass
 - Les ports sont définis dans `.env`
 - CORS : configuration dynamique via ce mécanisme (ne pas hardcoder des ports).
 
-2) **À chaque modification : commit**
-- Un commit par unité logique de changement.
-- Message clair : `feat: ...`, `fix: ...`, `refactor: ...`, `chore: ...`
-- Pas de commits “WIP” sur la branche principale.
-
-3) **Avant de conclure une PR / livraison**
+2) **Travail avec un workflow git propre**
+3) **Tests unitaires systématiques avant commit.**
+4) **Tests d'integration avec MCP avec chrome-devtool si c'est un ajout dans une app** 
 - Vérifier que rien n’est cassé (build, run via `start.sh`, chemins critiques).
+4) **Tests E2E si possible: ça valide l’app de A à Z**
+
+
+5) **Avant de conclure une PR / livraison**
 - Nettoyer les fichiers inutiles.
 - Mettre à jour le README si nécessaire.
 
