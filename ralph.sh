@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname \
 
 echo "🚀 Starting Ralph"
 
-OPENCODE_MODEL=${OPENCODE_MODEL-opencode/minimax-m2.1}
+OPENCODE_MODEL=${OPENCODE_MODEL-vllm/minimax_m2_1}
 OPENCODE_VARIANT=${OPENCODE_VARIANT-xhigh}
 
 MODEL_ARG=()
